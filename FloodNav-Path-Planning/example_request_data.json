@@ -1,0 +1,44 @@
+{
+  "example_1_main_py_coordinates": {
+    "start_point": {"x": 454, "y": 368},
+    "goal_points": [
+      {"x": 852, "y": 460},
+      {"x": 234, "y": 830},
+      {"x": 302, "y": 990},
+      {"x": 234, "y": 128}
+    ],
+    "scale_pix_to_m": 0.05,
+    "k_top_paths": 3,
+    "hausdorff_tolerance": 10.0
+  },
+  
+  "example_2_simple": {
+    "start_point": {"x": 100, "y": 100},
+    "goal_points": [
+      {"x": 500, "y": 200},
+      {"x": 300, "y": 600}
+    ],
+    "scale_pix_to_m": 0.05,
+    "k_top_paths": 2,
+    "hausdorff_tolerance": 15.0
+  },
+  
+  "example_3_high_precision": {
+    "start_point": {"x": 200.5, "y": 150.3},
+    "goal_points": [
+      {"x": 800.7, "y": 400.2},
+      {"x": 450.1, "y": 750.8},
+      {"x": 600.4, "y": 300.6}
+    ],
+    "scale_pix_to_m": 0.02,
+    "k_top_paths": 5,
+    "hausdorff_tolerance": 12.0
+  },
+  
+  "example_4_minimal": {
+    "start_point": {"x": 50, "y": 50},
+    "goal_points": [
+      {"x": 200, "y": 150}
+    ]
+  }
+}

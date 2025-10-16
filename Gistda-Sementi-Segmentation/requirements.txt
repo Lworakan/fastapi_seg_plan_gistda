@@ -1,0 +1,9 @@
+tensorboard
+numpy
+tqdm
+numba
+opencv-python
+scikit-learn
+scikit-image
+sknw
+chardet

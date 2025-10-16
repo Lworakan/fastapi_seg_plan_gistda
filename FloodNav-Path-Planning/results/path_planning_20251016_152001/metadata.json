@@ -1,0 +1,16 @@
+{
+  "timestamp": "20251016_152001",
+  "start_point": [
+    454,
+    368
+  ],
+  "goal_points": [
+    [
+      852,
+      460
+    ]
+  ],
+  "scale_pix_to_m": 0.05,
+  "num_paths_found": 1,
+  "results_directory": "results/path_planning_20251016_152001"
+}
