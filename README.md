@@ -206,6 +206,12 @@ curl -X POST "http://localhost:8000/initialize_model" \
   -F "experiment_name=U_net_round21"
 ```
 
+```bash
+curl -X POST "http://localhost:8000/plan_path" \                                                   ─╯
+  -F 'request_data={"start_point":{"x":454,"y":368},"goal_points":[{"x":852,"y":460}],"scale_pix_to_m":0.05,"k_top_paths":3,"hausdorff_tolerance":10.0}' \
+  -F "segmentation_image=@resource/map.png" \
+  -F "real_world_image=@resource/satellite.png"
+```
 ##### 3. Predict Segmentation
 ```http
 POST /predict
