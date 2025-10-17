@@ -1,0 +1,11 @@
+# Ground Truth Masks (Optional)
+
+Place ground truth segmentation masks here with the **same filenames** as test images.
+
+## Format:
+- Binary masks: 0 (background), 255 (road)
+- Grayscale PNG images
+- Same dimensions as test images (or will be auto-resized)
+
+## Example:
+If you have `test_images/imagepan.png`, place the ground truth as `ground_truth/imagepan.png`

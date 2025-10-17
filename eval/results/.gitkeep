@@ -1,0 +1,9 @@
+# Evaluation Results
+
+This directory will contain all evaluation outputs.
+
+Auto-generated files:
+- `{image_name}_mask.png` - Binary segmentation mask
+- `{image_name}_probability.png` - Probability heatmap
+- `{image_name}_overlay.png` - Overlay visualization
+- `evaluation_summary_{timestamp}.json` - Metrics summary

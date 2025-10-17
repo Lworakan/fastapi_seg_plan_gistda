@@ -1,0 +1,12 @@
+# Test Images Directory
+
+Place your test images here for UNet model evaluation.
+
+## Supported Formats:
+- PNG (.png)
+- JPEG (.jpg, .jpeg)
+- BMP (.bmp)
+- TIFF (.tiff)
+
+## Example:
+Your image is already here: `imagepan.png`

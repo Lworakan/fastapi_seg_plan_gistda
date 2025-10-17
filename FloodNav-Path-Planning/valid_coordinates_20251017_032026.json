@@ -1,0 +1,50 @@
+{
+  "image_path": "resource/imagepan5.png",
+  "image_size": {
+    "width": 512,
+    "height": 512
+  },
+  "connected_components": 16,
+  "largest_component_size": 5746,
+  "start_point": {
+    "x": 293,
+    "y": 329
+  },
+  "goal_points": [
+    {
+      "x": 299,
+      "y": 308
+    },
+    {
+      "x": 386,
+      "y": 163
+    },
+    {
+      "x": 253,
+      "y": 356
+    }
+  ],
+  "fastapi_request": {
+    "start_point": {
+      "x": 293,
+      "y": 329
+    },
+    "goal_points": [
+      {
+        "x": 299,
+        "y": 308
+      },
+      {
+        "x": 386,
+        "y": 163
+      },
+      {
+        "x": 253,
+        "y": 356
+      }
+    ],
+    "scale_pix_to_m": 0.05,
+    "k_top_paths": 3,
+    "hausdorff_tolerance": 10.0
+  }
+}
